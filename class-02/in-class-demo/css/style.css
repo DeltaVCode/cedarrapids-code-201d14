@@ -1,0 +1,62 @@
+/* *{
+  outline: dashed 2px rgb(118, 249, 79);
+} */
+
+body {
+  background-color: rgb(24, 164, 117);
+  margin: 0 auto;
+  width: 1200px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h2{
+  color: rgb(104, 135, 46);
+  font-size: 40px;
+}
+
+header{
+  margin-bottom: 100px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: chartreuse;
+  border-radius: 15px;
+}
+
+p {
+  font-size: 20px;
+  background-color: rgb(0, 187, 255);
+}
+/* example of an id  */
+#anotherStyle {
+  background-color: rgb(255, 157, 0);
+  font-size: 53px;
+   color: azure;
+}
+
+/* example of a css class  */
+.more-styles {
+  background-color: rgb(251, 0, 255);
+  color: azure;
+}
+
+
+
+main{
+  background-color: azure;
+}
+
+footer {
+  background-color: skyblue;
+  height: 100px;
+}
