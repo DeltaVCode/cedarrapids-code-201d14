@@ -1,0 +1,86 @@
+
+/* START CODE */
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* end start code */
+
+
+
+body > section {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  /* overflow: auto; */
+  
+}
+
+
+section section {
+  border: 2px solid purple;
+  background-color: lavender;
+}
+
+section section div {
+  border: 2px solid blue;
+  background-color: azure;
+  padding: 1rem;
+  margin: 1rem;
+  
+}
+
+
+.none div {
+  display: none;
+}
+
+.inline div {
+  display: inline;
+  margin-right: 20px;
+}
+
+.inline-block div {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* floats  */
+.float-left div {
+  float: left;
+}
+
+.float-right div {
+  float: right;
+}
+
+
+/* TOGETHER */
+.together {
+  font-size: 2.2rem;
+}
+.span-inline {
+  color: rgb(19, 138, 145);
+}
+
+footer  {
+  clear: both;
+}

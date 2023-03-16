@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h2{
+  font-weight: bold;
+}
+
+section{
+  border: 15px solid #EF2917;
+  width: 80%;
+  /* trouble    t r b l       */
+  margin: 5rem auto 0 auto;
+  height: 40rem;
+  position: static;
+}
+
+article{
+  border: 5px solid #EF8A17;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#one {
+  left: 100px;
+  width: 20%;
+  position: relative;
+  color: #C6C013;
+  background-color: #008148;
+}
+
+#two {
+  right: 0;
+  top: 4rem;
+  width: 50%;
+  position: absolute;
+  color: #fff;
+  background-color: #034732;
+}
+
+#three {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  background-color: #008148;
+}
+
+#four {
+  bottom: 0;
+  position: absolute;
+  margin: 0;
+  background-color: #C6C013;
+}
